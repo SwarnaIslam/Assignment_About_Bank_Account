@@ -20,7 +20,7 @@ public class Final_balance {
         System.out.println(horizontal_line);
 
         //to see what will happen if user want to cash out money without setting pin number
-        Raisa.cash_out(2000,raisa_pin);
+        Raisa.cash_out(2000,"1233");
         //if user's pin number has not been set, then here we will set pin number for user
         raisa_pin=Raisa.is_pin_set()?raisa_pin:Raisa.setPin_number("1223","set");
         System.out.println(horizontal_line);
