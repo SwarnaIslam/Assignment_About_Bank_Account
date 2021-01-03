@@ -75,7 +75,7 @@ public class Account {
         return this.pin_number;
     }
 
-    // if user submit the wrong pin number then updating pin number is possible
+    // if user submit the wrong pin number then updating pin number is not possible
     public boolean is_pin_update_possible(String old_pin){
         if(this.pin_number!=old_pin){
             System.out.println("Sorry, upadate is not possible due to wrong pin number. Enter the correct pin number.");
