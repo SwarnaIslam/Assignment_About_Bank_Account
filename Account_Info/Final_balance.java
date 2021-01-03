@@ -31,7 +31,8 @@ public class Final_balance {
 
         Raisa.cash_out(2500,raisa_pin);
         System.out.println(horizontal_line);
-
+ 
+        //User inserting wrong pin number
         Anika.cash_out(2000,"1225");
         System.out.println(horizontal_line);
 
