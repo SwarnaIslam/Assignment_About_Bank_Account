@@ -12,7 +12,7 @@ public class Final_balance {
         Account Anika=new Account("Anika Ahmed","017xxxxxxxxx",anika_pin);
 
         System.out.println(Raisa);
-        System.out.println(Raisa);
+        System.out.println(Anika);
         System.out.println(horizontal_line);
 
         Raisa.add_money(3000,Raisa.getCustomer_name());
