@@ -69,6 +69,7 @@ public class Account {
     }
 
     //if user's pin number has not set, then this function will set pin number.
+    //It can also update pin number
     public String setPin_number(String new_pin_number,String what_have_done){
         this.pin_number=new_pin_number;
         System.out.println("Your pin number has been "+what_have_done+" successfully. New pin number("+this.customer_name+"):"+new_pin_number);
